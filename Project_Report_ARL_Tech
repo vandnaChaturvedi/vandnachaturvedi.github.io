@@ -1,0 +1,39 @@
+<head>
+<title>Daisy App Project |ARL Tech. CVIT </title>
+<link href="styles.css" rel="stylesheet" type="text/css" >
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+</script>
+</head>
+
+
+<body>
+<h2>Daisy App : Digital Talking Books Convertor App</h2><!-- <i>(Please click on links to see more details)</i>
+<br/>
+<a href="consolidated_results.html"> Consolidated Results </a>
+<br/> -->
+<!-- <a href="https://www.overleaf.com/13961080nzkkqbgcjymr">ECCV draft</a> -->
+<ul>
+	<li><font class="date">Sep 27, 2018</font></li>
+	<ul>
+		<li><a href="http://preon.iiit.ac.in/~anilbatra/overhead/iterative_post_processing_v2.html" target="_blank">Hourglass Iterative Refinement</a></li>
+	</ul>
+	<li><font class="date">Sep 12, 2018</font></li>
+	<ul>
+		<li><a href="http://preon.iiit.ac.in/~anilbatra/overhead/affinity_v17.html" target="_blank">Hourglass Structure Networks (Contd.)</a></li>
+		<!-- <li><a href="https://www.overleaf.com/18610558ffbztzsfdmsw" target="_blank">WACV Draft</li></li> -->
+	</ul>
+	<li><font class="date">August 23, 2018</font></li>
+	<ul>
+		<li><a href="http://preon.iiit.ac.in/~anilbatra/overhead/affinity_v16.html" target="_blank">MatGAN R34 Encoder/Decoder </a></li>
+		<li><a href="http://preon.iiit.ac.in/~anilbatra/overhead/affinity_v16_1.html" target="_blank">Iterative &amp; Multi Branch Hourglass Network</a> - 3.5% Improvement in APLS</li>
+	</ul>
+	<li><font class="date">August 16, 2018</font></li>
+	<ul>
+		<li><a href="http://preon.iiit.ac.in/~anilbatra/overhead/affinity_v15.html" target="_blank">MatGAN (Contd.) &amp; Affinity Results on DeepGlobe Roads</a></li>
+	</ul>
+	
+
+</body>
+</html>
+

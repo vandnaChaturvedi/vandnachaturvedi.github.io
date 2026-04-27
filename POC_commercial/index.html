@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>DRO-VQE Portfolio Optimisation — POC</title>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:'Segoe UI',Arial,sans-serif;background:#f0f2f5;color:#212529;min-height:100vh}
+  .hero{background:linear-gradient(135deg,#1a237e,#0d47a1);color:#fff;padding:48px 32px;text-align:center}
+  .hero h1{font-size:26px;margin-bottom:10px;line-height:1.3}
+  .hero p{font-size:14px;opacity:.88;line-height:1.7;max-width:640px;margin:0 auto}
+  .badge{display:inline-block;background:rgba(255,255,255,.18);padding:3px 12px;
+         border-radius:12px;font-size:12px;margin:4px 3px}
+  .authors{margin-top:14px}
+  .cards{display:flex;gap:24px;flex-wrap:wrap;justify-content:center;
+         padding:40px 24px;max-width:960px;margin:0 auto}
+  .card{background:#fff;border-radius:12px;box-shadow:0 4px 16px rgba(0,0,0,.10);
+        width:280px;overflow:hidden;transition:transform .18s,box-shadow .18s;text-decoration:none;color:inherit}
+  .card:hover{transform:translateY(-4px);box-shadow:0 8px 28px rgba(0,0,0,.16)}
+  .card-header{padding:20px 22px 14px;display:flex;align-items:center;gap:12px}
+  .card-icon{font-size:32px}
+  .card-title{font-weight:700;font-size:16px;line-height:1.3}
+  .card-tag{display:inline-block;font-size:11px;padding:2px 8px;border-radius:8px;margin-top:4px}
+  .card-body{padding:0 22px 20px;font-size:13px;color:#495057;line-height:1.6}
+  .card-footer{padding:12px 22px 18px}
+  .btn{display:inline-block;padding:8px 18px;border-radius:6px;font-size:13px;
+       font-weight:600;text-decoration:none;text-align:center;width:100%}
+  .btn-primary{background:#0d47a1;color:#fff}
+  .btn-secondary{background:#e9ecef;color:#343a40}
+  .footer{text-align:center;color:#6c757d;font-size:12px;padding:24px;margin-top:8px}
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <h1>DRO-VQE Portfolio Optimisation &mdash; POC</h1>
+  <p>End-to-End Quantum Portfolio Engine &middot; Proof-of-Concept Execution Trace<br>
+     Dual Annealing + ADAM + CMA-ES &middot; Multi-Level CVaR &middot; Distributionally Robust Optimisation</p>
+  <div class="authors">
+    <span class="badge">Vandna Chaturvedi</span>
+    <span class="badge">Vivek Nainwal</span>
+    <span class="badge">Anoop Kumar</span>
+    <span class="badge">CDAC Hyderabad</span>
+    <span class="badge">May 2026</span>
+  </div>
+</div>
+
+<div class="cards">
+
+  <a class="card" href="POC_may1_results.html">
+    <div class="card-header">
+      <div class="card-icon">&#128300;</div>
+      <div>
+        <div class="card-title">POC Execution Results</div>
+        <span class="card-tag" style="background:#d4edda;color:#155724">Full Output</span>
+      </div>
+    </div>
+    <div class="card-body">
+      Cell-by-cell execution trace showing every computation step &mdash; data loading,
+      correlation matrix, Hamiltonian construction, Dual Annealing convergence,
+      ADAM optimisation, weight decoding, and final portfolio metrics.
+    </div>
+    <div class="card-footer">
+      <span class="btn btn-primary">View Results &rarr;</span>
+    </div>
+  </a>
+
+  <a class="card" href="poc_may1_code.html">
+    <div class="card-header">
+      <div class="card-icon">&#128196;</div>
+      <div>
+        <div class="card-title">Source Code (Highlighted)</div>
+        <span class="card-tag" style="background:#cce5ff;color:#004085">Python</span>
+      </div>
+    </div>
+    <div class="card-body">
+      Syntax-highlighted source listing of <code>POC_may1_code.py</code> &mdash; the complete
+      quantum portfolio pipeline including DRO, multi-level CVaR, Hamiltonian construction,
+      TwoLocal ansatz, and HTML report generation.
+    </div>
+    <div class="card-footer">
+      <span class="btn btn-primary">View Code &rarr;</span>
+    </div>
+  </a>
+
+  <a class="card" href="poc_may1_code.ipynb" download>
+    <div class="card-header">
+      <div class="card-icon">&#128218;</div>
+      <div>
+        <div class="card-title">Jupyter Notebook</div>
+        <span class="card-tag" style="background:#fff3cd;color:#856404">.ipynb Download</span>
+      </div>
+    </div>
+    <div class="card-body">
+      Download the <code>.ipynb</code> notebook to run locally in JupyterLab or VS Code.
+      Requires: <code>qiskit</code>, <code>qiskit-aer</code>, <code>scipy</code>,
+      <code>numpy</code>, <code>pandas</code>, <code>matplotlib</code>.
+    </div>
+    <div class="card-footer">
+      <span class="btn btn-secondary">&#8595; Download Notebook</span>
+    </div>
+  </a>
+
+</div>
+
+<div class="footer">
+  DRO-VQE Quantum Portfolio Optimisation &middot; CDAC Hyderabad &middot; 2026
+</div>
+
+</body>
+</html>
